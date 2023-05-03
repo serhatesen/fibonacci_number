@@ -10,7 +10,7 @@ def fibonacci(n):
         return n
 
     # İlk iki sayıyı belirle
-    fib_prev, fib_curr = 0, 1
+    fib_prev, fib_curr = 1, 1
 
     # n-1 kez döngü yap ve sonucu hesapla
     for i in range(1, n):
